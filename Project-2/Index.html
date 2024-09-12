@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Project</title>
+    <style>
+    *{
+        margin: 0,0,0,0;
+        /* background-color: aqua; */
+    }
+    h1{
+        text-align: center;
+        text-size-adjust: bold;
+    }
+    h3{
+        text-align: center;
+    }
+    #table1{
+        border-radius: 5px;
+        border: solid black;
+        height: 200px;
+        width: 400px;
+        background-color: aliceblue;
+    }
+  tr{
+    background-color: aliceblue;
+  }
+  td{
+    background-color: antiquewhite;
+  }
+  #table_card{
+    border: 5px solid black;
+  }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Swadeshi Co.Pvt.Ltd.</h1>
+    <h3>Please fill the order form</h3>
+
+      <table id="table1" border="#" >
+        <form action="#">
+            <tr>
+                <td><label for="fname"><b>First name:</b></label></td>
+                <td> <input type="text" id="fname" name="fname" value="Gautam"></td>
+            </tr>
+            <tr>
+                <td><label for="lname"><b>Last name:</b></label></td>
+                <td><input type="text" id="lname" name="lname" value="yadav"></td>
+            </tr>
+            <tr>
+                <td><label for="mail"><b>E-mail:</b></label></td>
+                <td><input type="email" id="mail" name="mail" value="abc@xyz.com"></td>
+            </tr>
+            <tr>
+                <td><label for="pata"> <b>Address:</b></label></td>
+                <td><input type="text" id="pata" name="pata" value="Full address"></td>
+            </tr>
+            <tr>
+                <td><label for="code"> <b>Pin Code:</b></label></td>
+                <td><input type="number" id="code" name="number" value="123456"></td>
+            </tr>
+        </form>
+      </table><br><br>
+  <Table border="5px" id="table_card">
+    <tr>
+        <th>Product-Name</th>
+        <th>Product_Id</th>
+        <th>Quantity</th>
+        <th>Unit Prize</th>
+        <th>Total</th>
+    </tr>
+    <tr>
+        <td>Kurta-Pajama</td>
+        <td>KP</td>
+        <td><input type="number"></td>
+        <td>&#x20b9 1500</td>
+        <td><input type="text number" id="code" name="text-number" value="&#x20b9"></td>
+    </tr>
+    <tr>
+        <td>Blazer</td>
+        <td>BLZ</td>
+        <td><input type="number"></td>
+        <td>&#x20b9 3300</td>
+        <td><input type="text number" id="code" name="text-number" value="&#x20b9"></td>
+    </tr>
+    <tr>
+        <td>Sweatshirt</td>
+        <td>SWT</td>
+        <td><input type="number"></td>
+        <td>&#x20b9 899</td>
+        <td><input type="text number" id="code" name="text-number" value="&#x20b9"></td>
+    </tr>
+    <tr>
+        <td>Nehru-Jacket</td>
+        <td>NHJ</td>
+        <td><input type="number"></td>
+        <td>&#x20b9 1200</td>
+        <td><input type="text number" id="code" name="text-number" value="&#x20b9"></td>
+    </tr>
+    <tr>
+        <td>Shirt</td>
+        <td>SHT</td>
+        <td><input type="number" value="Rs"></td>
+        <td>&#x20b9 1399</td>
+        <td><input type="text number" id="code" name="text-number" value="&#x20b9"></td>
+    </tr>
+    <tr>
+        <th colspan="4">Grand Total</th>
+
+        <td><input type="text number" id="code" name="text-number" value="&#x20b9"></td>
+
+
+    </tr>
+  </Table> <br><br>   
+      <div id="div3">
+        <table border="" id="table_card">
+            <tr><th colspan="3"><b>Credit/ Debit Card Details<br>Card Type</b></th></tr>
+           <tr>
+           <td> <input type="checkbox">Mastercard</td>
+           <td>Card Number :</td>
+           <td><input type="text number"></td>
+        </tr>
+           <tr>
+            <td><input type="checkbox">Visa</td>
+            <td>Expiry Date</td>
+            <td><input type="Date month"></td>
+           </tr>
+           <tr>
+            <td><input type="checkbox">Visa</td>
+            <td>CVV</td>
+            <td><input type="text number"></td>
+           </tr>
+           <tr>
+            <td colspan="2">Delivery Address :</td>
+            <td><input type="text" value="Enter Delivery Address Here"></td>
+           </tr> 
+          </table>
+      </div>
+      <table>
+        <tr>
+            <td><button value="Submit">Send order</button></td>
+            <td><button>Clear</button></td>
+        </tr>
+      </table>
+          
+    
+    
+</body>
+</html>
